@@ -1,0 +1,169 @@
+<script setup>
+import PageHero from '../components/PageHero.vue'
+import TestimonialsSection from '../components/TestimonialsSection.vue'
+import aboutPhoto from '../assets/img/about-photo.png'
+
+const milestones = [
+  '2018: At IT Park, opened our doors to children who want to learn coding',
+  '2018: Organized an Hour of Code at Logarithm school',
+  '2019: Became the Hour of Code Partner of Code.org',
+  '2019: Organized Initialize coding camp, inviting Dale Musser, a university professor based in Silicon Valley',
+  '2019: Admitted into the Innovation Hub incubator',
+  '2019: Organized an Hour of Code with the municipality for 80+ kids from underrepresented community',
+  '2020: Organized Data Science Fundamentals, inviting Ono Gantsog, a data scientist at Shirley Ryan AbilityLab',
+  "2020: Started implementing computer science from 1st grade at Cyrillic elementary school with Code.org's Computer Science Fundamentals and BootUp's ScratchJr curricula",
+  '2021: Organized a virtual Hour of Code with Jake Bell (at Code.org)',
+  '2021: Organized an Hour of Code at Orchlon school',
+  '2021: Organized a virtual Hour of Code with Rebecca Bailey (at MCOE)',
+  '2022: Started coding club at English School of Mongolia',
+  '2022: Organized Young Coders Camp for elementary students at Selbe school, inviting BootUp facilitators Jared O’Leary and Heather Cunningham from the U.S.',
+  '2022: Through Asia.org, started our professional development initiative in Sukhbaatar province, educating 70+ teachers in computer science',
+  '2023: Co-organized the Code Olympiad 2023 in Asia',
+  '2023: Became the International Professional Development Partner of Code.org in Mongolia',
+  "2023: Became Scratch's SEC organization in Mongolia",
+  "2023: Trained teachers of Ikh Zasag international school, Nomt Naran school, Oyunii Onis school, English School of Mongolia, Oyunii Nakhia school, and Sen Lize school with Code.org's Computer Science Fundamentals",
+  '2023: Signed a MOU with DevTech Research Group of Boston College',
+  '2023: Became the micro:bit Authorised Reseller in Mongolia',
+  '2023: Organized an Hour of Code with the municipality',
+]
+
+const faqs = [
+  {
+    q: 'What is computer science?',
+    a: 'Computer science is defined as "the study of computers and algorithmic processes, including their principles, their hardware and software designs, their implementation, and their impact on society".',
+  },
+  {
+    q: 'What is coding/programming?',
+    a: "Coding is the process of writing programs for computers. In essence, it's a set of instructions to carry out a task with the help of a computer.",
+  },
+  {
+    q: 'Can children code?',
+    a: 'Children are fast becoming coders/programmers/developers nowadays. Computer science and coding is considered the most important skill in the 21st century. Many developed countries have already recognized computer science as a mandatory subject from 1st grade in school.',
+  },
+  {
+    q: 'What are the benefits of learning to code?',
+    a: 'Problem solving, computational thinking, creativity, perseverance, team work are some of the skills associated with coding. Steve Jobs once said, "Everyone in this country should learn how to program because it teaches you how to think".',
+  },
+  {
+    q: "What's the difference between computer science and information technology?",
+    a: 'Computer science is about creating new systems and programs whereas information technology is about utilization, configuration, and maintenance of existing computer systems.',
+  },
+]
+</script>
+
+<template>
+  <PageHero title="About Us" />
+
+  <section class="section">
+    <div class="container about-intro">
+      <div>
+        <p>
+          Codercub is the first K-12 coding initiative and the International
+          Partner of Code.org in Mongolia.
+        </p>
+        <p>
+          Since 2018, we have educated more than 600 children in computer
+          science through our academy alone.
+        </p>
+        <h2>Mission</h2>
+        <p>
+          We envision Mongolia as a technology-driven country of innovators.
+          Our mission is <strong>advancing computer science in Mongolia</strong>.
+          To realize this mission, we are introducing the best computer
+          science curriculums developed in the United States through our
+          academy as well as the local partner schools.
+        </p>
+      </div>
+      <img :src="aboutPhoto" alt="Codercub" class="about-intro__photo" />
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <h2 class="section-title">Milestones</h2>
+      <ul class="milestones">
+        <li v-for="m in milestones" :key="m">{{ m }}</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <div class="faq">
+        <details v-for="f in faqs" :key="f.q">
+          <summary>{{ f.q }}</summary>
+          <p>{{ f.a }}</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <TestimonialsSection />
+</template>
+
+<style scoped>
+.about-intro {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 32px;
+  align-items: start;
+}
+
+.about-intro__photo {
+  border-radius: 8px;
+}
+
+@media (max-width: 760px) {
+  .about-intro {
+    grid-template-columns: 1fr;
+  }
+}
+
+.milestones {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.milestones li {
+  padding: 12px 0 12px 24px;
+  border-left: 2px solid var(--color-primary);
+  position: relative;
+}
+
+.milestones li::before {
+  content: '';
+  position: absolute;
+  left: -6px;
+  top: 18px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--color-accent);
+}
+
+.faq {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq details {
+  border-bottom: 1px solid var(--color-border);
+  padding: 14px 0;
+}
+
+.faq summary {
+  cursor: pointer;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  color: var(--color-navy);
+}
+
+.faq p {
+  margin: 10px 0 0;
+  color: var(--color-muted);
+}
+</style>
