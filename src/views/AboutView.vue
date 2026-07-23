@@ -4,7 +4,7 @@ import TestimonialsSection from '../components/TestimonialsSection.vue'
 import aboutPhoto from '../assets/img/about-photo.png'
 
 const milestones = [
-  '2018: At IT Park, opened our doors to children who want to learn coding',
+  'Summer of 2018: Founded as the first after-school coding initiative in the country',
   '2018: Organized an Hour of Code at Logarithm school',
   '2019: Became the Hour of Code Partner of Code.org',
   '2019: Organized Initialize coding camp, inviting Dale Musser, a university professor based in Silicon Valley',
