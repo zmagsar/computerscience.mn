@@ -23,7 +23,8 @@ const milestones = [
   "2023: Became Scratch's SEC organization in Mongolia",
   '2023: Signed a MOU with DevTech Research Group of Boston College',
   '2023: Became the micro:bit Authorised Reseller in Mongolia',
-  '2023: Organized an Hour of Code with the municipality',
+  '2023: Co-organized an Hour of Code with the municipality for 80+ underrepresented children',
+  '2024: '
 ]
 
 const faqs = [
