@@ -31,8 +31,9 @@ const milestones = [
   '2024: Attended the APCEC in Tokyo, Japan',
   '2025: Opened a state-of-the-art computer science academy at the newly built EduPark in Ulaanbaatar, Mongolia',
   '2025: Tim Barnes (Carnegie Mellon University) taught at the Summer of Code 2025 in Ulaanbaatar',
-  '2025: Attended the APCEC in Bangkok, Thailand',
-  '2026: Future Intelligence Lab: Simon Guest (Code.org) taught at the Summer of Code 2026 in Ulaanbaatar',
+  '2025: Presented at the APCEC in Bangkok, Thailand',
+  '2026: Mason Borgio (8th grade) is our first student to pass the CPCS exam to earn the CMU credit',
+  '2026: Future Intelligence Lab: Simon Guest (Code.org) taught at the Summer of Code 2026 in Ulaanbaatar'
 ]
 
 const faqs = [
