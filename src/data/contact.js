@@ -1,5 +1,5 @@
 export const contact = {
-  address: 'Гэрлүг виста 58/5, Хан-Уул, Улаанбаатар, Монгол.',
+  address: 'EduPark 207 тоот, Хан-Уул 15-р хороо, Улаанбаатар.',
   phone: '7220-4455',
   email: 'info@computerscience.mn',
   facebook: 'https://www.facebook.com/codercub',
