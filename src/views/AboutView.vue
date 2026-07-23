@@ -5,7 +5,7 @@ import aboutPhoto from '../assets/img/about-photo.png'
 
 const milestones = [
   'Summer of 2018: Founded as the first after-school coding initiative in the country',
-  '2019: Became the Hour of Code Partner of CodeAI (then Code.org)',
+  '2019: Became the International Partner of CodeAI (then Code.org)',
   '2019: Initialize Camp: Dale Musser, Ph.D. (University of Missouri) taught at Summer of Code 2019 in Ulaanbaatar to 50+ students',
   '2019: Presented at the CSEdCon in Las Vegas, NV, U.S.',
   '2019: Admitted into the Innovation Hub incubator',
@@ -23,8 +23,16 @@ const milestones = [
   "2023: Became Scratch's SEC organization in Mongolia",
   '2023: Signed a MOU with DevTech Research Group of Boston College',
   '2023: Became the micro:bit Authorised Reseller in Mongolia',
-  '2023: Co-organized an Hour of Code with the municipality for 80+ underrepresented children',
-  '2024: '
+  '2023: Attended the CSEdCon in Las Vegas, NV, U.S.',
+  '2023: Co-organized an Hour of Code with the municipality for underrepresented children',
+  '2024: Signed a MOU with the Ministry of Education in Mongolia to develop a national computer science curriculum for K-12 students',
+  '2024: Organized Summer of Code 2024 in Chicago, IL, Arlington, VA, Bay Area, CA, and Los Angeles, CA, U.S.',
+  '2024: Waris Candra (Micro:bit Foundation) visited Codercub in Ulaanbaatar',
+  '2024: Attended the APCEC in Tokyo, Japan',
+  '2025: Opened a state-of-the-art computer science academy at the newly built EduPark in Ulaanbaatar, Mongolia',
+  '2025: Tim Barnes (Carnegie Mellon University) taught at the Summer of Code 2025 in Ulaanbaatar',
+  '2025: Attended the APCEC in Bangkok, Thailand',
+  '2026: Future Intelligence Lab: Simon Guest (Code.org) taught at the Summer of Code 2026 in Ulaanbaatar',
 ]
 
 const faqs = [
