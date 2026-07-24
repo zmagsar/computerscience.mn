@@ -7,6 +7,7 @@ import microbit from '../assets/img/microbit.png'
 import bootup from '../assets/img/bootup.png'
 import devtech from '../assets/img/devtech.png'
 import sphero from '../assets/img/sphero.png'
+import pixio from '../assets/img/pixio.png'
 
 const partners = [
   { src: partnerCodeorg, alt: 'Code.org' },
@@ -16,6 +17,7 @@ const partners = [
   { src: microbit, alt: 'micro:bit' },
   { src: devtech, alt: 'DevTech' },
   { src: sphero, alt: 'Sphero' },
+  { src: pixio, alt: 'Pixio' },
 ]
 
 const stats = [
