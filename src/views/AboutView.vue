@@ -4,7 +4,7 @@ import TestimonialsSection from '../components/TestimonialsSection.vue'
 import aboutPhoto from '../assets/img/about-photo.png'
 
 const milestones = [
-  'Summer of 2018: Founded as the first after-school coding initiative in the country',
+  'Summer of 2018: Founded as the first K-12 coding academy in the country',
   '2019: Became the International Partner of CodeAI (then Code.org)',
   '2019: Dale Musser, Ph.D. (University of Missouri) taught at Summer of Code 2019 in Ulaanbaatar to 50+ students',
   '2019: Presented at the CSEdCon in Las Vegas, NV, U.S.',
@@ -62,19 +62,14 @@ const faqs = [
 </script>
 
 <template>
-  <PageHero title="About Us" />
+  <PageHero 
+    title="About Us" 
+    subtitle="Codercub is the first K-12 coding academy and the International Partner of CodeAI in Mongolia."
+  />
 
   <section class="section">
     <div class="container about-intro">
       <div>
-        <p>
-          Codercub is the first K-12 coding initiative and the International
-          Partner of Code.org in Mongolia.
-        </p>
-        <p>
-          Since 2018, we have educated more than 600 children in computer
-          science through our academy alone.
-        </p>
         <h2>Mission</h2>
         <p>
           We envision Mongolia as a technology-driven country of innovators.
