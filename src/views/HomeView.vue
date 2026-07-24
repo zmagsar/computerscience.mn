@@ -29,6 +29,28 @@ const stats = [
 </script>
 
 <template>
+  <section class="section section--alt">
+    <div class="container">
+      <h2 class="section-title">Hour of Code in Mongolia</h2>
+      <p class="hoc-intro">
+        As the Hour of Code Partner of Code.org in Mongolia, we have been
+        organizing HoC events since 2018 with schools and the municipality
+        every year with the <strong>underprivileged in mind</strong>.
+      </p>
+
+      <h3 class="hoc-events-title">Our 2019 Event</h3>
+      <div class="gallery">
+        <img v-for="(src, i) in eventPhotos" :key="i" :src="src" alt="Hour of Code event" loading="lazy" />
+      </div>
+
+      <p class="hoc-help">
+        We are happy to help schools organize or host Hour of Code events,
+        free of cost. Learn more about Hour of Code
+        <a href="https://hourofcode.com/us/faq" target="_blank" rel="noopener">here</a>.
+      </p>
+    </div>
+  </section>
+
   <section class="hero">
     <div class="container hero__grid">
       <article class="hero__card">
