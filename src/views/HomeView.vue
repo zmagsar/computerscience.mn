@@ -1,17 +1,21 @@
 <script setup>
 import { registerFormUrl } from '../data/contact'
 import partnerCodeorg from '../assets/img/partner-codeorg.png'
+import cmucsacademy from '../assets/img/cmu-cs-academy.png'
 import scratch from '../assets/img/scratch.png'
 import microbit from '../assets/img/microbit.png'
 import bootup from '../assets/img/bootup.png'
 import devtech from '../assets/img/devtech.png'
+import sphero from '../assets/img/sphero.png'
 
 const partners = [
   { src: partnerCodeorg, alt: 'Code.org' },
+  { src: cmucsacademy, alt: 'CMU CS Academy' },
+  { src: bootup, alt: 'BootUp' },
   { src: scratch, alt: 'Scratch' },
   { src: microbit, alt: 'micro:bit' },
-  { src: bootup, alt: 'BootUp' },
   { src: devtech, alt: 'DevTech' },
+  { src: sphero, alt: 'Sphero' },
 ]
 
 const stats = [
