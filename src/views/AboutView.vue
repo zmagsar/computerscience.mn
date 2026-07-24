@@ -25,6 +25,7 @@ const milestones = [
   '2023: Attended the CSEdCon in Las Vegas, NV, U.S.',
   '2023: Co-organized an Hour of Code with the Municipality for underrepresented children',
   '2024: Became the Sphero distributor in Mongolia',
+  '2024: Became the Trendformer distributor in Mongolia',
   '2024: Signed a MOU with the Ministry of Education in Mongolia to develop a national computer science curriculum for K-12 students',
   '2024: Organized Summer of Code camps in Chicago, IL, Arlington, VA, Bay Area, CA, and Los Angeles, CA, U.S.',
   '2024: Waris Candra (Micro:bit Foundation) visited Codercub in Ulaanbaatar',
