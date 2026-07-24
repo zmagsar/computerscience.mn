@@ -1,7 +1,6 @@
 <script setup>
 import { registerFormUrl } from '../data/contact'
 import partnerCodeorg from '../assets/img/partner-codeorg.png'
-import partnerHourofcode from '../assets/img/partner-hourofcode.png'
 import scratch from '../assets/img/scratch.png'
 import microbit from '../assets/img/microbit.png'
 import bootup from '../assets/img/bootup.png'
@@ -9,7 +8,6 @@ import devtech from '../assets/img/devtech.png'
 
 const partners = [
   { src: partnerCodeorg, alt: 'Code.org' },
-  { src: partnerHourofcode, alt: 'Hour of Code' },
   { src: scratch, alt: 'Scratch' },
   { src: microbit, alt: 'micro:bit' },
   { src: bootup, alt: 'BootUp' },
@@ -58,7 +56,7 @@ const stats = [
 
   <section class="section partners">
     <div class="container">
-      <h2 class="section-title">Түнш байгууллагууд</h2>
+      <h2 class="section-title">Partners</h2>
       <div class="partners__row">
         <img v-for="p in partners" :key="p.alt" :src="p.src" :alt="p.alt" />
       </div>
