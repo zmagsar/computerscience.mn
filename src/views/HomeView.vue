@@ -31,7 +31,7 @@ const stats = [
 <template>
   <section class="section section--alt">
     <div class="container">
-      <h2 class="section-title">Hour of Code in Mongolia</h2>
+      <h2 class="section-title">Компьютерын ухааны цогц хөтөлбөр</h2>
       <p class="hoc-intro">
         As the Hour of Code Partner of Code.org in Mongolia, we have been
         organizing HoC events since 2018 with schools and the municipality
