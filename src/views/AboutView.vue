@@ -1,7 +1,7 @@
 <script setup>
 import PageHero from '../components/PageHero.vue'
 import TestimonialsSection from '../components/TestimonialsSection.vue'
-import aboutPhoto from '../assets/img/about-photo.png'
+import founder from '../assets/img/founder.png'
 
 const milestones = [
   'Summer of 2018: Founded as the first K-12 coding academy in the country',
@@ -81,7 +81,7 @@ const faqs = [
           our local partner schools here in Mongolia.
         </p>
       </div>
-      <img :src="aboutPhoto" alt="Codercub" class="about-intro__photo" />
+      <img :src="founder" alt="Zolbayar Magsar" class="about-intro__photo" />
     </div>
   </section>
 
