@@ -16,7 +16,7 @@ const milestones = [
   '2021: Rebecca Bailey (Mendocino County Office of Education) taught at a virtual Hour of Code for Codercub students',
   '2022: Jared O’Leary and Heather Cunningham (BootUp PD) taught at the Summer of Code 2022 in Ulaanbaatar',
   '2022: Attended the CSEdCon in Fort Lauderdale, FL, U.S.',
-  '2022: With the help of ASIA (Associazione per la Solidarietà Internazionale in Asia), organized our first PD to 70+ teachers in rural Mongolia (Sukhbaatar province)',
+  '2022: With the help of ASIA Onlus, organized our first PD to 70+ teachers in rural Mongolia (Sukhbaatar province)',
   '2023: Co-organized the Code Olympiad 2023 with Coding Bee Academy from Indonesia',
   '2023: Became the International Professional Development Partner of Code.org in Mongolia',
   "2023: Became Scratch Foundation's SEC organization in Mongolia",
