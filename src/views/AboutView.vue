@@ -74,11 +74,11 @@ const faqs = [
       <div>
         <h2>Mission</h2>
         <p>
-          We envision Mongolia's future as a technology-driven country.
+          We prefer to envision Mongolia's future as a technology-driven country.
           Therefore, our mission is <strong>advancing computer science in Mongolia</strong>.
-          To realize this mission, we are introducing the best computer
-          science curriculums developed in the United States through our
-          academy as well as the local partner schools.
+          To realize this mission, we are working with our U.S. partners to introduce 
+          the best computer science curriculums both through our academy as well as 
+          the local partnering schools here in Mongolia.
         </p>
       </div>
       <img :src="aboutPhoto" alt="Codercub" class="about-intro__photo" />
