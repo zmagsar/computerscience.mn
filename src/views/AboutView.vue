@@ -78,7 +78,7 @@ const faqs = [
           Therefore, our mission is <strong>advancing computer science in Mongolia</strong>.
           To realize this mission, we are working with our U.S. partners to introduce 
           the best computer science curriculums both through our academy as well as 
-          the local partnering schools here in Mongolia.
+          our local partner schools here in Mongolia.
         </p>
       </div>
       <img :src="aboutPhoto" alt="Codercub" class="about-intro__photo" />
