@@ -17,7 +17,7 @@ const menuOpen = ref(false)
     <div class="container site-header__inner">
       <router-link to="/" class="brand" @click="menuOpen = false">
         <span class="brand__text">
-          <strong>Компьютерын ухааны цогц хөтөлбөр</strong>
+          <strong>ComputerScience.mn</strong>
           <small>Powered by Codercub</small>
         </span>
       </router-link>
