@@ -19,7 +19,7 @@ const milestones = [
   '2022: With the help of Asia.org, organized our first PD to 70+ teachers in rural Mongolia (Sukhbaatar province)',
   '2023: Co-organized the Code Olympiad 2023 with Coding Bee Academy from Indonesia',
   '2023: Became the International Professional Development Partner of Code.org in Mongolia',
-  "2023: Became Scratch's SEC organization in Mongolia",
+  "2023: Became Scratch Foundation's SEC organization in Mongolia",
   '2023: Signed a MOU with DevTech Research Group of Boston College',
   '2023: Became the micro:bit Authorised Reseller in Mongolia',
   '2023: Attended the CSEdCon in Las Vegas, NV, U.S.',
@@ -31,7 +31,7 @@ const milestones = [
   '2024: Waris Candra (Micro:bit Foundation) visited Codercub in Ulaanbaatar',
   '2024: Became a "MizzouMade" business',
   '2024: Attended the APCEC in Tokyo, Japan',
-  '2025: Established a state-of-the-art computer science academy at the newly built EduPark in Ulaanbaatar, Mongolia',
+  '2025: Established a state-of-the-art computer science academy at the newly built EduPark center in Ulaanbaatar, Mongolia',
   '2025: Tim Barnes (Carnegie Mellon University) taught at the Summer of Code 2025 in Ulaanbaatar',
   '2025: Presented at the APCEC in Bangkok, Thailand',
   '2025: Co-organized an AI workshop to 50+ teachers in rural Mongolia (Tov province) with Mongolian National Institute for Educational Research',
@@ -74,8 +74,8 @@ const faqs = [
       <div>
         <h2>Mission</h2>
         <p>
-          We envision Mongolia as a technology-driven country of innovators.
-          Our mission is <strong>advancing computer science in Mongolia</strong>.
+          We envision Mongolia's future as a technology-driven country.
+          Therefore, our mission is <strong>advancing computer science in Mongolia</strong>.
           To realize this mission, we are introducing the best computer
           science curriculums developed in the United States through our
           academy as well as the local partner schools.
