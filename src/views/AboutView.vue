@@ -72,13 +72,17 @@ const faqs = [
   <section class="section">
     <div class="container about-intro">
       <div>
-        <h2>Mission</h2>
+        <h2>Founder Zolbayar Magsar</h2>
         <p>
           We prefer to envision Mongolia's future as a technology-driven country.
           Therefore, our mission is <strong>advancing computer science in Mongolia</strong>.
           To realize this mission, we are working with our U.S. partners to introduce 
           the best computer science curriculums both through our academy as well as 
           our local partner schools here in Mongolia.
+        </p>
+        <p>
+          As a Fulbright scholar myself, I always wanted to help the bright young Mongolian minds to experience
+          and accomplish their potential in the field of computer science.
         </p>
       </div>
       <img :src="founder" alt="Zolbayar Magsar" class="about-intro__photo" />
