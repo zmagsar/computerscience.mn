@@ -83,7 +83,7 @@ const faqs = [
         <p>
           As a Fulbright scholar myself, I always wanted to help bright young Mongolian minds to experience
           and accomplish their potential in the field of CS. Since founding Codercub, 
-          I strove to create the best learning experience for everyone in terms of curriculum and teacher quality.
+          I strove to create the best learning experience for our students in terms of curriculum, teacher quality, and learning environment.
         </p>
       </div>
       <img :src="founder" alt="Zolbayar Magsar" class="about-intro__photo" />
