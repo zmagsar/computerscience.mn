@@ -222,4 +222,26 @@ const faqs = [
   font-size: 0.85rem;
   color: var(--color-muted);
 }
+
+.faq {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq details {
+  border-bottom: 1px solid var(--color-border);
+  padding: 14px 0;
+}
+
+.faq summary {
+  cursor: pointer;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  color: var(--color-navy);
+}
+
+.faq p {
+  margin: 10px 0 0;
+  color: var(--color-muted);
+}
 </style>
