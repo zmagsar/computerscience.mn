@@ -26,6 +26,29 @@ const stats = [
   { value: '37', label: 'Girl coders' },
   { value: '100', label: 'Positive Facebook review' },
 ]
+
+const faqs = [
+  {
+    q: 'What is computer science?',
+    a: 'Computer science is defined as "the study of computers and algorithmic processes, including their principles, their hardware and software designs, their implementation, and their impact on society".',
+  },
+  {
+    q: 'What is coding/programming?',
+    a: "Coding is the process of writing programs for computers. In essence, it's a set of instructions to carry out a task with the help of a computer.",
+  },
+  {
+    q: 'Can children code?',
+    a: 'Children are fast becoming coders/programmers/developers nowadays. Computer science and coding is considered the most important skill in the 21st century. Many developed countries have already recognized computer science as a mandatory subject from 1st grade in school.',
+  },
+  {
+    q: 'What are the benefits of learning to code?',
+    a: 'Problem solving, computational thinking, creativity, perseverance, team work are some of the skills associated with coding. Steve Jobs once said, "Everyone in this country should learn how to program because it teaches you how to think".',
+  },
+  {
+    q: "What's the difference between computer science and information technology?",
+    a: 'Computer science is about creating new systems and programs whereas information technology is about utilization, configuration, and maintenance of existing computer systems.',
+  },
+]
 </script>
 
 <template>
@@ -104,6 +127,19 @@ const stats = [
       </div>
     </div>
   </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <div class="faq">
+        <details v-for="f in faqs" :key="f.q">
+          <summary>{{ f.q }}</summary>
+          <p>{{ f.a }}</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
 </template>
 
 <style scoped>
