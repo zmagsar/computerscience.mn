@@ -29,8 +29,8 @@ const stats = [
 
 const faqs = [
   {
-    q: 'What is computer science?',
-    a: 'Computer science is defined as "the study of computers and algorithmic processes, including their principles, their hardware and software designs, their implementation, and their impact on society".',
+    q: 'Компьютерын ухаан гэж юу вэ?',
+    a: 'Асуудлыг шийдвэрлэх, нээлт хийх, санаа бодлоо илэрхийлэх зорилгоор өгөгдөл, алгоритм болон тооцооллын системийг ашиглах судалгаа, хүн төвтэй дадлага.',
   },
   {
     q: 'What is coding/programming?',
